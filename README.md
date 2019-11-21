@@ -13,5 +13,8 @@ To launch the web app, go to the root directory of the app, and launch a web ser
 
 Once the server is up and running, open your browser, and go to http://localhost:8000/, and you'll be greeted by a prompt window requesting permission to access the webcam. Upon accepting said request, wait a bit until the model is downloaded and voila, rejoice with the glory of out-of-the-box deep learning. Have fun!
 
+Replace the model file url in `detect.js` with your model.json url
+`let MODEL_URL = 'REPLACE_ME'`
+
 ### Tutorial
 For a complete tutorial, and a theory lesson about the model and what's under the hood, please refer to the following link: [In-Browser Object Detection Using Tensorflow.js](https://nanonets.com/blog/object-detection-tensorflow-js/)
